@@ -3,7 +3,7 @@
 These guides define shared conventions for first-party React, React Native, and TypeScript projects:
 
 - [Coding style](coding-style.md) covers source, tests, examples, comments, and review.
-- [Markdown source style](documentation-style.md) covers paragraph layout, code fences, and links. The [technical-writing skill](https://github.com/riekelt/technical-writer/blob/main/plugins/technical-writer/skills/technical-writing/SKILL.md) owns substantive technical prose.
+- [Markdown and project documentation style](documentation-style.md) covers source layout and a curated directory tree. The [technical-writing skill](https://github.com/riekelt/technical-writer/blob/main/plugins/technical-writer/skills/technical-writing/SKILL.md) owns substantive technical prose.
 - [Default architecture](default-architecture.md) covers stack choices for new apps and requested architecture changes.
 
 Projects adopt a tagged release by linking the applicable guides from their `AGENTS.md`. Local instructions may add domain rules, framework-required exceptions, and scoped migration notes.
