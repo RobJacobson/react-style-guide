@@ -28,7 +28,7 @@ Use TypeScript for new application logic, tests, and executable tooling. Keep pl
 
 - Use descriptive domain names for values and operations. Name predicates with `is`, `has`, `can`, or another clear question. Include units when the type does not establish them, such as `timeoutMs` or `sizeBytes`.
 - Use `camelCase` for values and functions and `PascalCase` for types, classes, and React components. Use kebab-case for ordinary `.ts` filenames. Use PascalCase for a `.tsx` file whose main export is a React component. Preserve framework-required filenames and external API spellings.
-- Use two spaces, an 80-column code target, double quotes, semicolons, and trailing commas where supported. Let the repository formatter settle mechanical layout. Prefer Vite+ for new projects; migrate existing formatter tooling as separately scoped work.
+- Use two spaces, an 80-column code target, double quotes, semicolons, and trailing commas where supported. Let the repository formatter settle mechanical layout.
 - Enable TypeScript strict checking for maintained source and tests. Fix type errors at their source rather than weakening the checks to make a change pass.
 - Use blank lines to separate top-level declarations and distinct phases inside a function, such as validation, transformation, effects, and return construction. Use braces for multiline branches and loops.
 - Define a type in the module or domain that owns its meaning. Name repeated, nested, or non-obvious contracts; leave small local shapes inline. Use `import type` and `export type` for type-only dependencies.
